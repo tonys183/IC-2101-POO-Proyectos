@@ -170,7 +170,7 @@ public class TileManager {
         }
         Collections.shuffle(valBricks);
         Random random = new Random();
-        int brickCount = random.nextInt(2) + 2;
+        int brickCount = random.nextInt(80) + 2;
         while (brickCount != 0 && !valBricks.isEmpty()) {
             Dupla<Integer, Integer> brickPosition = valBricks.remove(0);
             mapTileNum[brickPosition.getPrimero()][brickPosition.getSegundo()] = 2;

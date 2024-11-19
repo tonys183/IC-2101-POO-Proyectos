@@ -27,7 +27,7 @@ public class Player extends Actor {
         super("Heroe");
         this.vidas=3;
         this.die=false;
-        this.dfspeed=(float) 3.5;
+        this.dfspeed=(float) 1.5;
         this.bomb = bomb;
         this.keyH = keyHandler;
         this.bombManager=bombManager;
