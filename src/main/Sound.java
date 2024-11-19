@@ -108,6 +108,7 @@ public class Sound {
         if (clip != null && pausedPosition != null) {
             clip.setFramePosition(pausedPosition);
             clip.start();
+            clip.loop(Clip.LOOP_CONTINUOUSLY);
             pausedPositions.remove(index);
         }
     }

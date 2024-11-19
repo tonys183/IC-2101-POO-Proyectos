@@ -112,8 +112,8 @@ public class Villanos extends Actor {
             return;
         }
 
-        g.setColor(Color.RED);
-        g.drawRect((int)x + solidArea.x, (int)y + solidArea.y, solidArea.width, solidArea.height);
+        //g.setColor(Color.RED);
+        //g.drawRect((int)x + solidArea.x, (int)y + solidArea.y, solidArea.width, solidArea.height);
         BufferedImage image = null;
         switch (direccion) {
             case "up" -> image = (spriteNum == 1) ? up1 : (spriteNum == 2) ? up2 : (spriteNum == 3) ? up3 : up4;

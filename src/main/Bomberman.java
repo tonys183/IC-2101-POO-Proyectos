@@ -228,9 +228,7 @@ public class Bomberman extends JPanel implements Runnable, Serializable {
         sound.loopX(4);
         makeVillains(levelActu);
         ArrayList<Villanos> villanosArrayList=new ArrayList<>();
-        for (Actor actor : actors){
-            villanosArrayList.add((Villanos) actor);
-        }
+        for (Actor actor : actors) villanosArrayList.add((Villanos) actor);
         eventManager.flipPlayMusic();
         actors.clear();
         eventManager.reset();
