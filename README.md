@@ -1,5 +1,15 @@
 # IC-2101 — Programación Orientada a Objetos
 
+<p align="center">🚢</p>
+
+<p align="center">
+  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square">
+</p>
+
+<p align="center">
+  <a href="#proyecto-i-battleship">Proyecto I</a> · <a href="#proyecto-ii-bomberman">Proyecto II</a>
+</p>
+
 Proyectos del curso Programación Orientada a Objetos (IC-2101), desarrollados en Java. Los trabajos consistían en recrear dos juegos clásicos y organizar sus elementos mediante clases, aplicando principios de programación orientada a objetos.
 
 ## Proyecto I (Battleship)
